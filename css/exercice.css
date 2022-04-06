@@ -26,9 +26,10 @@
 /*5. exercice-align-content-3 */
 .exercice-align-content-3 .container {
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+align-content: space-between;
+justify-content: flex-end;
 
 }
 /*6. exercice-flex-grow-1 */
